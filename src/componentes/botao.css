@@ -1,0 +1,17 @@
+:root {
+    --bg-botao: #f0f0f0;
+    --border-botao: solid 1px #888;
+}
+
+.botao {
+    font-size: 1.4em;
+    background-color: var(--bg-botao);
+    border: none;
+    border-right: var(--border-botao);
+    border-bottom: var(--border-botao);
+    outline: none;
+}
+
+.botao:active {
+    background-color: #ccc;
+}
