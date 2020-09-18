@@ -1,5 +1,5 @@
 :root {
-    --bg-botao: #f0f0f0;
+    --bg-botao: #6D6C6E;
     --border-botao: solid 1px #888;
 }
 
@@ -14,4 +14,21 @@
 
 .botao:active {
     background-color: #ccc;
+}
+
+.botao.double {
+    grid-column: span 2;
+}
+
+.botao.triple {
+    grid-column: span 3;
+}
+
+.botao.operacao {
+    background-color: #fa8231;
+    color: #fff;
+}
+
+.botao.operacao:active {
+    background-color: #fa8231cc;
 }

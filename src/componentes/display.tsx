@@ -1,10 +1,13 @@
 import React from 'react';
 import './display.css'
 
-const Display: React.FC = () => {
+interface Props {
+    valor: string;
+}
+const Display: React.FC<Props> = ({valor}) => {
 
     return (
-        <div className='display'>10</div>
+    <div className='display'>{valor}</div>
     )
 }
 
